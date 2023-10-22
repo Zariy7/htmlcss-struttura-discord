@@ -9,6 +9,11 @@
     padding: 10px 0px;
 }
 
+.bg-darkblue{
+    background-color: darkblue;
+    padding: 10px 0px;
+}
+
 div ul{
     list-style: none;
     justify-content: space-between;
@@ -33,6 +38,7 @@ div ul{
     width: 20%;
     height: 100%;
     border-width: 0px;
+    padding: 0px 10px;
 }
 
 .uppermenu-options.container{
@@ -45,4 +51,12 @@ div ul{
     padding: 0px 50px;
     border-width: 0px 3px;
     border-style: dashed;
+}
+
+.bigpinkbox{
+    width: 50%;
+    height: 500px;
+    background-color: pink;
+    margin: 30px auto;
+
 }
