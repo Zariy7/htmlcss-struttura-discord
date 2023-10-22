@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bg-lightblue{
+    background-color: lightblue;
+    padding: 10px 0px;
+}
+
+div ul{
+    list-style: none;
+    justify-content: space-between;
+}
+
+.uppermenu{
+    background-color: darkgoldenrod;
+    height: 50px;
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    border-style: dashed;
+}
+
+.container{
+    display: flex;
+}
+
+.uppermenu-options{
+    width: 20%;
+    height: 100%;
+    border-width: 0px;
+}
+
+.uppermenu-options.container{
+    flex-direction: row-reverse;
+}
+
+.linklist{
+    width: 60%;
+    height: 100%;
+    padding: 0px 50px;
+    border-width: 0px 3px;
+    border-style: dashed;
+}
