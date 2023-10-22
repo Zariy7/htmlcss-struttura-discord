@@ -14,6 +14,21 @@
     padding: 10px 0px;
 }
 
+.bg-white{
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.bg-lightgrey{
+    background-color: lightgray;
+    padding: 10px 0px;
+}
+
+.bg-darkgrey{
+    background-color: darkgray;
+    padding: 10px 0px;
+}
+
 div ul{
     list-style: none;
     justify-content: space-between;
@@ -58,5 +73,77 @@ div ul{
     height: 500px;
     background-color: pink;
     margin: 30px auto;
+}
 
+.bigmixedbox{
+    width: 70%;
+    height: 500px;
+    background-color: pink;
+    margin: 30px auto;
+}
+
+.bigblue{
+    width: 65%;
+    height: 100%;
+    border-width: 3px;
+    background-color: blue;
+    border-style: dashed;
+}
+
+.smallpink{
+    width: 35%;
+    height: 100%;
+    border-width: 3px;
+    background-color: pink;
+    border-style: dashed;
+}
+
+.biggreen{
+    width: 70%;
+    height: 800px;
+    border-width: 3px;
+    background-color: darkgreen;
+    border-style: dashed;
+    margin: 30px auto;
+}
+
+.bignogreen{
+    width: 70%;
+    height: 800px;
+    margin: 30px auto;
+}
+
+.salmonbox{
+    width: 40%;
+    height: 100%;
+    border-width: 0px;
+    background-color: salmon;
+    border: 3px dashed black;
+}
+
+.cyanbox{
+    width: 15%;
+    height: 100%;
+    background-color: cyan; 
+    border: 3px dashed white;
+}
+
+.lowermenu{
+    background-color: mediumaquamarine;
+    height: 50px;
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.lowermenu-options{
+    padding: 0px 10px;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.lowermenu-options.container{
+    flex-direction: row-reverse;
 }
